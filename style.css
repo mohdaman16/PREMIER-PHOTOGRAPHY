@@ -1567,14 +1567,16 @@ to{
         grid-row: 1/3;
         display: flex;
         justify-content: space-between;
-        padding: 2.5vw;
-        padding-left: 5vw;
+        padding: 2vw;
+        padding-left: 2vw;
+       
     }
     .foot1 h1{
         font-family: monument;
         font-size: 4vw;
         letter-spacing: -2px;
         position: relative;
+        
     }
 
     .foot h1::before{
@@ -1626,7 +1628,14 @@ to{
         font-size: 2vw;
         position: relative;
     }
+    .center-content video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
         
+    
+    }
     
 
     
